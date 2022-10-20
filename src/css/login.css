@@ -1,0 +1,169 @@
+.loginall{
+    display: flex;
+    flex-direction: row;
+    background: rgb(206, 130, 31);
+}
+.loginall img{
+    width: 512px;
+    height: 642px;
+}
+.absol{
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    width:380px; left:0; right:0; margin-left:auto; margin-right:auto; 
+    height:485px; top: 0; bottom:0; margin-top:auto; margin-bottom:auto;
+    display: flex;
+    flex-direction: column;
+}
+.loginput{
+    padding: 0 20px;
+    text-align: center;
+    flex: 0.8;
+}
+.erroremessage{
+    margin-top: 4px;
+    margin-right: 120px;
+    color: #ef0000;
+    font-size: 12px;
+}
+.erroremessage2{
+    margin-top: 4px;
+    margin-right: 30px;
+    color: #ef0000;
+    font-size: 12px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.button{
+    height: 45px;
+    border: none;
+    border-radius: 7px;
+    width: 150px;
+    font-weight: bold;
+    color: white;
+    margin-left: 12px;
+    background: rgba(182, 121, 15, 0.795);
+    box-shadow: 0 4px 14px 0 #0000001a;
+}
+.Htitle{
+     margin: 30px;
+     font-size: 24px;
+     font-weight: bold;
+}
+.names{
+    font-size: 12px;
+	font-weight: 600;
+	color: #262626;
+    margin-right: 250px;
+}
+.names2{
+    font-size: 12px;
+	font-weight: 600;
+	color: #262626;
+    margin-right: 240px;
+}
+.inputWrap {
+    display: flex;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 8px;
+    background-color: white;
+    border: 1px solid #e2e0e0;
+}
+.inputWrap:focus-within {
+    border: 1px solid #4e7df5;
+}
+
+.input {
+    width: 100%;
+    outline: none;
+	border: none;
+    height: 17px;
+    font-size: 14px;
+	font-weight: 400;
+}
+.set{
+    margin: 20px;
+}
+.without{
+    margin: auto;
+    color: #888;
+    font-size: 14px;
+}
+.signuplink{
+    text-decoration: none;
+    color: #888;
+}
+.signnav{
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    width:600px; left:0; right:0; margin-left:auto; margin-right:auto; 
+    height:600px; top: 90px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.singupinput{
+    padding: 0 20px;
+    text-align: center;
+    flex: 0.9;
+}
+
+
+
+
+
+.erroremessage-s{
+    margin-top: 4px;
+    margin-right: 310px;
+    color: #ef0000;
+    font-size: 12px;
+}
+.erroremessage-2{
+    margin-top: 4px;
+    margin-right: 220px;
+    color: #ef0000;
+    font-size: 12px;
+}
+.erroremessage-s2{
+    margin-top: 4px;
+    margin-right: 310px;
+    color: #ef0000;
+    font-size: 12px;
+}
+.emails{
+    font-size: 12px;
+	font-weight: 600;
+	color: #262626;
+    margin-right: 460px;
+}
+.pws{
+    font-size: 12px;
+	font-weight: 600;
+	color: #262626;
+    margin-right: 450px;
+}
+.pws2{
+    font-size: 12px;
+	font-weight: 600;
+	color: #262626;
+    margin-right: 420px;
+}
+.namess{
+    font-size: 12px;
+	font-weight: 600;
+	color: #262626;
+    margin-right: 470px;
+}
+.datas{
+    font-size: 12px;
+	font-weight: 600;
+	color: #262626;
+    margin-right: 450px;
+}

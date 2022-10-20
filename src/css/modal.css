@@ -1,0 +1,75 @@
+.all{
+    background: rgb(220, 168, 100);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.cooklistwrite{
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+.modd{
+    display: flex;
+    flex-direction: column;
+}
+.modalbody{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+}
+.keepimg{
+    margin-top: 15px;
+    margin-left: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: aqua;
+}
+.moul{
+    padding: 0;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+.moli{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.moprice{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+.modalFooter{
+    
+}
+.hr{
+    border: 0;
+    height: 3px;
+    background: black;
+}
+.inputs{
+    margin-top: 5px;
+}
+.input1{
+    width: 50px;
+    border-radius: 7px;
+    border: 2px solid #ccc;
+}
+.input2{
+    width: 50px;
+    border-radius: 7px;
+    border: 2px solid #ccc;
+}
+.num{
+    margin: auto;
+    font-size: 22px;
+}
